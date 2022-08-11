@@ -18,5 +18,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aicp_poplar.mk
     
 COMMON_LUNCH_CHOICES := \
-	aicp_poplar_kddi-userdebug \
-	aicp_poplar_kddi-eng
+	aicp_poplar-userdebug \
+	aicp_poplar-eng
