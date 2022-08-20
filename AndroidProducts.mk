@@ -15,4 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_poplar.mk
+    $(LOCAL_DIR)/aicp_poplar.mk
+
+COMMON_LUNCH_CHOICES := \
+ 	aicp_poplar-userdebug \
+ 	aicp_poplar-eng
